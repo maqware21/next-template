@@ -1,0 +1,52 @@
+.toolbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navLinks {
+  gap: 15px;
+  justify-content: center;
+  align-items: center;
+}
+.actions {
+  gap: 10px;
+}
+.mobileLogo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* padding: 0px 16px; */
+  padding-top: 5px;
+}
+.logo {
+  margin-top: 5px;
+}
+.mobilenavLinks {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.navButtons {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.mobileNav {
+  height: 100vh;
+}
+
+/* NavLink Css */
+.link {
+  padding: 5px;
+  text-decoration: none;
+  border-radius: 5px;
+  color: '#ADADB0';
+}
+.innerLink {
+  text-decoration: none;
+  color: '#ADADB0';
+}
